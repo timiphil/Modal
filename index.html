@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="styles.css">
+ <title>Modal</title>
+</head>
+<body> 
+   <section class="modal hidden">
+      <div class="flex">
+       <img src="./img/user" width="50px" height="50px"  alt="user">
+       <button class="btn-close">X</button>
+      </div>
+      <div>
+        <h3>Stay in Touch</h3>
+        <p>
+         This is a dummy form so don't bother trying it. Thanks!
+        </p>
+        <p>
+         "Someone else will use your horn as a spittoon if you don't blow your own." - Rotimi Ishola
+        </p>
+      </div>
+      <input type="email" id="email" placeholder="gabanainch@js.com">
+      <button class="btn">Take Action</button>
+   </section>
+   <div class="overlay hidden"></div>
+   <button class="btn btn-open">
+     Open Modal
+   </button>
+
+   <script src="index.js"></script>
+</body>
+</html>
